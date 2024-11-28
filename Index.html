@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тест</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Пройди тест</h1>
+    <form id="quiz-form">
+      <div class="question">
+        <p>1. Какой язык работает в браузере?</p>
+        <label>
+          <input type="radio" name="q1" value="Python"> Python
+        </label>
+        <label>
+          <input type="radio" name="q1" value="JavaScript"> JavaScript
+        </label>
+        <label>
+          <input type="radio" name="q1" value="C++"> C++
+        </label>
+      </div>
+      <div class="question">
+        <p>2. Что означает HTML?</p>
+        <label>
+          <input type="radio" name="q2" value="Hypertext Markup Language"> Hypertext Markup Language
+        </label>
+        <label>
+          <input type="radio" name="q2" value="HighText Machine Language"> HighText Machine Language
+        </label>
+        <label>
+          <input type="radio" name="q2" value="Hyperloop Machine Language"> Hyperloop Machine Language
+        </label>
+      </div>
+      <div class="question">
+        <p>3. Что такое CSS?</p>
+        <label>
+          <input type="radio" name="q3" value="Cascading Style Sheets"> Cascading Style Sheets
+        </label>
+        <label>
+          <input type="radio" name="q3" value="Colorful Style Sheets"> Colorful Style Sheets
+        </label>
+        <label>
+          <input type="radio" name="q3" value="Computer Style Sheets"> Computer Style Sheets
+        </label>
+      </div>
+      <div class="question">
+        <p>4. Какой тег используется для заголовков в HTML?</p>
+        <label>
+          <input type="radio" name="q4" value="<header>">&lt;header&gt;
+        </label>
+        <label>
+          <input type="radio" name="q4" value="<h1>">&lt;h1&gt;
+        </label>
+        <label>
+          <input type="radio" name="q4" value="<heading>">&lt;heading&gt;
+        </label>
+      </div>
+      <div class="question">
+        <p>5. Какой метод используется для вывода в консоль в JavaScript?</p>
+        <label>
+          <input type="radio" name="q5" value="console.write()"> console.write()
+        </label>
+        <label>
+          <input type="radio" name="q5" value="console.log()"> console.log()
+        </label>
+        <label>
+          <input type="radio" name="q5" value="console.output()"> console.output()
+        </label>
+      </div>
+      <button type="button" id="submit-btn">Проверить</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
